@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('/consulta',[App\Http\Controllers\PruebasController::class,'consulta1'])->name('consulta1');
 
 Route::get('/consulta2',[App\Http\Controllers\PruebasController::class,'consulta2'])->name('consulta2');
+
+Route::get('/consulta4',[App\Http\Controllers\PruebasController::class,'consulta4'])->name('consulta4');
+

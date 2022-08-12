@@ -60,7 +60,7 @@ CREATE TABLE `habitacions` (
 -- Volcado de datos para la tabla `habitacions`
 --
 
-INSERT INTO `habitacions` (`id`, `precio_por_noche`, `piso`, `max_personas`, `cama_bebe`, `ducha`, `bano`, `balcon`, `created_at`, `updated_at`) VALUES
+INSERT INTO `habitaciones` (`id`, `precio_por_noche`, `piso`, `max_personas`, `cama_bebe`, `ducha`, `bano`, `balcon`, `created_at`, `updated_at`) VALUES
 (1, 500000.00, 2, 5, 'No', 'si', 'si', 'no', NULL, NULL),
 (2, 500000.00, 6, 1, 'no', 'si', 'si', 'si', NULL, NULL),
 (3, 500000.00, 2, 5, 'No', 'si', 'si', 'no', NULL, NULL),
